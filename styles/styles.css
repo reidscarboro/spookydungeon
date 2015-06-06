@@ -7,9 +7,14 @@
 body, html {
 	font-family: Arcon-Regular;
 	color: white;
-	color: #2E2E2E;
 	width: 100%;
 	padding: 0;
 	margin: 0;
 	background-color:#1f1f1f;
+	text-align: center;
+}
+
+img {
+	width: 50%;
+	min-width: 600px;
 }
