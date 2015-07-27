@@ -15,8 +15,8 @@ body, html {
 }
 
 img {
-	width: 30%;
-	min-width: 400px;
+	width: 50%;
+	min-width: 500px;
 }
 
 .logEntry p{
