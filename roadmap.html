@@ -15,6 +15,12 @@
 				color: #dadada;
 				background-color:#1f1f1f;
 				line-height: 24px;
+				padding:16px;
+			}
+
+			.column {
+				width: 50%;
+				float:left;
 			}
 
 			.treeView li{
@@ -34,95 +40,114 @@
 		</style>
 	</head>
 	<body>
-		<u>Spooky Dungeon Roadmap</u>
-		<br/>
-		<br/>
-		<ul class="collapsibleList treeView">
-			<li style="color:#b366ff;">
-				Level Design
-				<ul>
-					<li>
-						Enemies
-						<ul>
-							<li>Mirror Knight</li>
-							<li>Bomb Guy</li>
-							<li>Translocation Wizard</li>
-							<li>Fire Dragon</li>
-						</ul>
-					</li>
-					<li>
-						Objects
-						<ul>
-							<li>Statue</li>
-							<li>Gold Chest</li>
-						</ul>
-					</li>
-					<li>
-						Level Components
-					</li>
-					<li>
-						Random Segment Completion
-					</li>
-				</ul>
-			</li>
-			<li style="color:#ff66d9;">
-				Character Additions
-				<ul>
-					<li>Laila: The Guardsman (Defensive) [Like Arthur in Fate Stay Night]</li>
-					<li>Eli: The Illusionist (Decoy) [Young devious boy]</li>
-					<li>Kira: The Necromancer (Necromancer) [Witch woman]</li>
-					<li>Name: The Shaman (Shaman)</li>
-					<li>Arthur: The Transmutor (Master Translocator) [Old conventional wizard]</li>
-					<li>Luther: The Dimensional Drifter (Time Manipulator) [Blade-esque guy]</li>
-					<li>KM-530: The Armsman (Heavy Arms) [Robot]</li>
-					<li>Klas: The Arsonist (Demolition) [Psycho guy]</li>
-					<li>Warmack: The Telekinetic (Telekinetic) [Young girl]</li>
-				</ul>
-			</li>
-			<li style="color:#ff6464;">
-				Game UI
-				<ul>
-					<li>Ult Button</li>
-					<li>Gold Display</li>
-					<li>Art</li>
-				</ul>
-			</li>
-			<li style="color:#ffd966;">
-				Tutorial
-			</li>
-			<li style="color:#b3ff66;">
-				Staging Room
-				<ul>
-					<li>Unlocked Character Displays</li>
-					<li>Quest Interface</li>
-					<li>Recruitment Table Interface</li>
-					<li>Start Level Interface</li>
-					<li>High Score Interface</li>
-				</ul>
-			</li>
-			<li style="color:#66ff8c;">
-				Quest System
-				<ul>
-					<li>Intro Quests</li>
-					<li>Daily Quest Functionality</li>
-					<li>Quest Functionality</li>
-					<li>Quest UI</li>
-				</ul>
-			</li>
-			<li style="color:#64ffff;">
-				Unlockable System
-				<ul>
-					<li>IAP Interface</li>
-					<li>Unlockable UI</li>
-				</ul>
-			</li>
-			<li style="color:#668cff;">
-				Menu System
-				<ul>
-					<li>Start Screen</li>
-				</ul>
-			</li>
-		</ul>
+		<div class="column">
+		<u>Spooky Dungeon To-Do</u>
+			<br/>
+			<br/>
+			Arrow Block Art<br/>
+			Stone Art Redraw<br/>
+			Zombie Art<br/>
+			Archer Art<br/>
+			Sprite Atlas Migration<br/>
+			Arrow Block<br/>
+			Burnable Attribute (transferable on collision)<br/>
+			Bomb Object<br/>
+			Bomb Enemy<br/>
+			Moltov Object<br/>
+			Moltov Enemy<br/>
+			<strike>Translocation Wizard</strike><br/>
+		</div>
+		<div class="column">
+			<u>Spooky Dungeon Roadmap</u>
+			<br/>
+			<br/>
+			<ul class="collapsibleList treeView">
+				<li style="color:#b366ff;">
+					Level Design
+					<ul>
+						<li>
+							Enemies
+							<ul>
+								<li>Mirror Knight</li>
+								<li>Bomb Guy</li>
+								<li>Translocation Wizard</li>
+								<li>Fire Dragon</li>
+							</ul>
+						</li>
+						<li>
+							Objects
+							<ul>
+								<li>Statue</li>
+								<li>Gold Chest</li>
+							</ul>
+						</li>
+						<li>
+							Level Components
+						</li>
+						<li>
+							Random Segment Completion
+						</li>
+					</ul>
+				</li>
+				<li style="color:#ff66d9;">
+					Character Additions
+					<ul>
+						<li>Laila: The Guardsman (Defensive) [Like Arthur in Fate Stay Night]</li>
+						<li>Eli: The Illusionist (Decoy) [Young devious boy]</li>
+						<li>Kira: The Necromancer (Necromancer) [Witch woman]</li>
+						<li>Name: The Shaman (Shaman)</li>
+						<li>Arthur: The Transmutor (Master Translocator) [Old conventional wizard]</li>
+						<li>Luther: The Dimensional Drifter (Time Manipulator) [Blade-esque guy]</li>
+						<li>KM-530: The Armsman (Heavy Arms) [Robot]</li>
+						<li>Klas: The Arsonist (Demolition) [Psycho guy]</li>
+						<li>Warmack: The Telekinetic (Telekinetic) [Young girl]</li>
+					</ul>
+				</li>
+				<li style="color:#ff6464;">
+					Game UI
+					<ul>
+						<li>Ult Button</li>
+						<li>Gold Display</li>
+						<li>Art</li>
+					</ul>
+				</li>
+				<li style="color:#ffd966;">
+					Tutorial
+				</li>
+				<li style="color:#b3ff66;">
+					Staging Room
+					<ul>
+						<li>Unlocked Character Displays</li>
+						<li>Quest Interface</li>
+						<li>Recruitment Table Interface</li>
+						<li>Start Level Interface</li>
+						<li>High Score Interface</li>
+					</ul>
+				</li>
+				<li style="color:#66ff8c;">
+					Quest System
+					<ul>
+						<li>Intro Quests</li>
+						<li>Daily Quest Functionality</li>
+						<li>Quest Functionality</li>
+						<li>Quest UI</li>
+					</ul>
+				</li>
+				<li style="color:#64ffff;">
+					Unlockable System
+					<ul>
+						<li>IAP Interface</li>
+						<li>Unlockable UI</li>
+					</ul>
+				</li>
+				<li style="color:#668cff;">
+					Menu System
+					<ul>
+						<li>Start Screen</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
 	</body>
 	<script>
 			$( document ).ready(function() {
